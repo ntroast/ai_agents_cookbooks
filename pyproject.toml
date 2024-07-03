@@ -1,0 +1,20 @@
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+langchain = "^0.2.6"
+langchain-community = "^0.2.6"
+langchainhub = "^0.1.20"
+langchain-openai = "^0.1.14"
+langchain-text-splitters = "^0.2.2"
+faiss-cpu = "^1.8.0.post1"
+arize-phoenix = {extras = ["evals"], version = "^4.6.3"}
+jupyter = "^1.0.0"
+python-dotenv = "^1.0.1"
+unstructured = "^0.14.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
